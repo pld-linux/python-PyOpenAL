@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define	pname	PyOpenAL
 Summary:	Binding of OpenAL for Python
 Summary(pl):	Interfejs OpenAL dla Pythona
