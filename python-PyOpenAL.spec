@@ -7,9 +7,9 @@ Version:	0.1.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Python
-Source0:	http://oomadness.tuxfamily.org/downloads/%{pname}-%{version}.tar.gz
+Source0:	http://oomadness.nekeme.net/downloads/%{pname}-%{version}.tar.gz
 # Source0-md5:	2357d1d9ac1e99b0588bfc14d10fd9cd
-URL:		http://oomadness.tuxfamily.org/en/pyopenal/
+URL:		http://oomadness.nekeme.net/en/pyopenal/
 BuildRequires:	OpenAL-devel
 BuildRequires:	python-devel
 Requires:	python-pyvorbis
