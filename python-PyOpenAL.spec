@@ -8,6 +8,7 @@ License:	LGPL
 Group:		Development/Languages/Python
 Source0:	http://oomadness.nekeme.net/downloads/%{pname}-%{version}.tar.gz
 # Source0-md5:	2357d1d9ac1e99b0588bfc14d10fd9cd
+Patch0:		%{name}-build.patch
 URL:		http://oomadness.nekeme.net/en/pyopenal/
 BuildRequires:	OpenAL-devel
 BuildRequires:	python-devel
@@ -22,6 +23,7 @@ Interfejs OpenAL dla Pythona.
 
 %prep
 %setup -q -n %{pname}-%{version}
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
