@@ -1,4 +1,4 @@
-%define		pname	PyOpenAL	
+%define		pname	PyOpenAL
 Summary:	Binding of OpenAL for Python
 Summary(pl):	Interfejs OpenAL dla Pythona
 Name:		python-PyOpenAL
