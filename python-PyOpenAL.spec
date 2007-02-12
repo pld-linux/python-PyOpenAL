@@ -1,6 +1,6 @@
 %define		pname	PyOpenAL
 Summary:	Binding of OpenAL for Python
-Summary(pl):	Interfejs OpenAL dla Pythona
+Summary(pl.UTF-8):   Interfejs OpenAL dla Pythona
 Name:		python-PyOpenAL
 Version:	0.1.3
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Binding of OpenAL for Python.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejs OpenAL dla Pythona.
 
 %prep
