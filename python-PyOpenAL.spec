@@ -2,13 +2,12 @@
 Summary:	Binding of OpenAL for Python
 Summary(pl.UTF-8):	Interfejs OpenAL dla Pythona
 Name:		python-PyOpenAL
-Version:	0.1.3
+Version:	0.1.6
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Python
-Source0:	http://oomadness.nekeme.net/downloads/%{pname}-%{version}.tar.gz
-# Source0-md5:	2357d1d9ac1e99b0588bfc14d10fd9cd
-Patch0:		%{name}-build.patch
+Source0:	http://download.gna.org/pyopenal/%{pname}-%{version}.tar.gz
+# Source0-md5:	51992fc62df474614ea6eb724061f392
 URL:		http://oomadness.nekeme.net/en/pyopenal/
 BuildRequires:	OpenAL-devel
 BuildRequires:	python-devel
@@ -23,7 +22,6 @@ Interfejs OpenAL dla Pythona.
 
 %prep
 %setup -q -n %{pname}-%{version}
-%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
