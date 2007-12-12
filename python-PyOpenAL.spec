@@ -1,7 +1,7 @@
 %define		pname	PyOpenAL
 Summary:	Binding of OpenAL for Python
 Summary(pl.UTF-8):	Interfejs OpenAL dla Pythona
-Name:		python-PyOpenAL
+Name:		python-%{pname}
 Version:	0.1.6
 Release:	1
 License:	LGPL
