@@ -3,7 +3,7 @@ Summary:	Binding of OpenAL for Python
 Summary(pl.UTF-8):	Interfejs OpenAL dla Pythona
 Name:		python-%{pname}
 Version:	0.1.6
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/Python
 Source0:	http://download.gna.org/pyopenal/%{pname}-%{version}.tar.gz
