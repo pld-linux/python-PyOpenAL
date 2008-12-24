@@ -8,7 +8,7 @@ License:	LGPL
 Group:		Development/Languages/Python
 Source0:	http://download.gna.org/pyopenal/%{pname}-%{version}.tar.gz
 # Source0-md5:	51992fc62df474614ea6eb724061f392
-URL:		http://home.gna.org/oomadness/en/pyopenal/index.html
+URL:		http://home.gna.org/oomadness/en/pyopenal/
 BuildRequires:	OpenAL-devel
 BuildRequires:	python-devel
 Requires:	python-pyvorbis
