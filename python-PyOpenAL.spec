@@ -10,7 +10,7 @@ Source0:	http://download.gna.org/pyopenal/%{pname}-%{version}.tar.gz
 # Source0-md5:	51992fc62df474614ea6eb724061f392
 URL:		http://home.gna.org/oomadness/en/pyopenal/
 BuildRequires:	OpenAL-devel
-BuildRequires:	python-devel
+BuildRequires:	python-devel >= 1:2.5
 Requires:	python-pyvorbis
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,6 +27,7 @@ Interfejs OpenAL dla Pythona.
 rm -rf $RPM_BUILD_ROOT
 
 %{__python} setup.py install \
+	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
 
 rm -f $RPM_BUILD_ROOT%{py_sitedir}/pyopenal/*.py
@@ -39,3 +40,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS CHANGES README
 %attr(755,root,root) %{py_sitedir}/*.so
 %{py_sitedir}/pyopenal
+%{py_sitedir}/*.egg-info
