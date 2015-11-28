@@ -28,9 +28,7 @@ Interfejs OpenAL dla Pythona.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 rm -f $RPM_BUILD_ROOT%{py_sitedir}/pyopenal/*.py
 
