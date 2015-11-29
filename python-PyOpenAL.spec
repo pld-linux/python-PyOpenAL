@@ -9,6 +9,7 @@ Group:		Development/Languages/Python
 Source0:	http://download.gna.org/pyopenal/%{pname}-%{version}.tar.gz
 # Source0-md5:	51992fc62df474614ea6eb724061f392
 URL:		http://home.gna.org/oomadness/en/pyopenal/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	OpenAL-devel
 BuildRequires:	freealut-devel
 BuildRequires:	python-devel >= 1:2.5
